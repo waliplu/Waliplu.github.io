@@ -1,0 +1,57 @@
+.navbar li a :hover {
+    background-color:white;
+
+}
+.navbar > li {
+    float: left;
+}
+.navbar li ul {
+    display:none;
+    position: absolute;
+    min-width: 140px;
+}
+.navbar li:hover > ul{
+    display: block;
+}
+.sproduct{
+    background-color: rgb(234, 219, 247);
+}
+.small-img-group {
+  display: flex;
+  justify-content: space-between;
+}
+#uniforme{
+    text-align: center;
+    justify-content: space-between;
+}
+.small-img-col {
+flex-basis: 24%;
+cursor: pointer;
+}
+
+.sproduct select {
+display: block;
+padding: 5px 10px;
+}
+.sproduct input {
+   width: 50px;
+  height: 40px;
+   padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+.sproduct input:focus {
+   outline: none;
+}
+.buy-btn{
+background: rgb(255, 0, 234);
+opacity: 1;
+transition:0.3s all;
+} 
+
+.wasap{
+    position: fixed;
+            right: 15px;
+            bottom: 15px;
+            z-index: 1;
+}
