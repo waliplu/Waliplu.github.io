@@ -1,247 +1,177 @@
 const productos = [
 
-    {
-        id: "abrigo-01",
-        titulo: "Abrigo 01",
-        imagen: "./img/abrigos/01.jpg",
+     {
+        id: "chompa-01",
+        titulo: "Chompa CH-1",
+        imagen: "./img/chompa/CH-1.png",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Chompas",
+            id: "Chompas"
         },
-        precio: 1000
+        precio: 50
     },
     {
-        id: "abrigo-02",
-        titulo: "Abrigo 02",
-        imagen: "./img/abrigos/02.jpg",
+        id: "chompa-02",
+        titulo: "Chompa CH-1",
+        imagen: "./img/chompa/CH-2.png",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Chompas",
+            id: "Chompas"
         },
-        precio: 1000
+        precio: 80
     },
     {
-        id: "abrigo-03",
-        titulo: "Abrigo 03",
-        imagen: "./img/abrigos/03.jpg",
+        id: "chompa-03",
+        titulo: "Chompa CH-1",
+        imagen: "./img/chompa/CH-3.png",
         categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
+            nombre: "Chompas",
+            id: "Chompas"
         },
-        precio: 1000
+        precio: 85
     },
-    {
-        id: "abrigo-04",
-        titulo: "Abrigo 04",
-        imagen: "./img/abrigos/04.jpg",
-        categoria: {
-            nombre: "Abrigos",
-            id: "abrigos"
-        },
-        precio: 1000
-    },
-    {
-        "id": "abrigo-05",
-        "titulo": "Abrigo 05",
-        "imagen": "./img/abrigos/05.jpg",
-        "categoria": {
-            "nombre": "Abrigos",
-            "id": "abrigos"
-        },
-        "precio": 1000
-    },
+
+
     {
         id: "conjunto-001",
-        titulo: "Azul Acero 001",
-        imagen: "./img/uniforme-medico/001.png",
+        titulo: "Blanco 001-B",
+        imagen: "./img/uniforme/001-B.png",
         categoria: {
-            nombre: "Uniformermes Medicos",
+            nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 65
+        precio: 75
     },
     {
         id: "conjunto-002",
-        titulo: "Celeste Cielo 002",
-        imagen: "./img/uniforme-medico/002.png",
+        titulo: "Guinda 125-G",
+        imagen: "./img/uniforme/125-G.png",
         categoria: {
-            nombre: "Uniformermes Medicos",
+            nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 65
+        precio: 75
     },
     {
         id: "conjunto-003",
-        titulo: "Cobalto 003",
-        imagen: "./img/uniforme-medico/003.png",
+        titulo: "Crema 127-C",
+        imagen: "./img/uniforme/127-C.png",
         categoria: {
-            nombre: "Uniformermes Medicos",
+            nombre: "Uniformes Medicos ",
             id: "conjuntos"
         },
-        precio: 65
+        precio: 75
     },
     {
         id: "conjunto-004",
-        titulo: "Crema 004",
-        imagen: "./img/uniforme-medico/004.png",
+        titulo: "Palo Rosa 152",
+        imagen: "./img/uniforme/152.png",
         categoria: {
-            nombre: "Uniformermes Medicos",
+            nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 65
+        precio: 75
     },
+   
     {
         id: "conjunto-005",
-        titulo: "Lila Bajo 005",
-        imagen: "./img/uniforme-medico/005.png",
+        titulo: "Enfermera 230-E",
+        imagen: "./img/uniforme/230-E.png",
         categoria: {
-            nombre: "Uniformermes Medicos",
+            nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 65
-    },
-    {
+        precio: 75
+    },  {
         id: "conjunto-006",
-        titulo: "Negro 006",
-        imagen: "./img/uniforme-medico/006.png",
+        titulo: "Cobalto 275-C",
+        imagen: "./img/uniforme/275-C.png",
         categoria: {
-            nombre: "Uniformermes Medicos",
+            nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 65
-    },
-    {
+        precio: 75
+    },  {
         id: "conjunto-007",
-        titulo: "Rosado Intermedio 007",
-        imagen: "./img/uniforme-medico/007.png",
+        titulo: "Celeste Cielo 281-C",
+        imagen: "./img/uniforme/281-C.png",
         categoria: {
-            nombre: "Uniformermes Medicos",
+            nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 65
+        precio: 75
     },
     {
         id: "conjunto-008",
-        titulo: "Verde Olivo 008",
-        imagen: "./img/uniforme-medico/008.png",
+        titulo: "Azul Electrico 293-E",
+        imagen: "./img/uniforme/293-E.png",
         categoria: {
-            nombre: "Uniformermes Medicos",
+            nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 65
+        precio: 75
+    },
+    {
+        id: "conjunto-009",
+        titulo: "Azul Marino 320-M",
+        imagen: "./img/uniforme/320-M.png",
+        categoria: {
+            nombre: "Uniformes Medicos",
+            id: "conjuntos"
+        },
+        precio: 75
+    },
+    {
+        id: "conjunto-010",
+        titulo: "Marron 495-M",
+        imagen: "./img/uniforme/495-M.png",
+        categoria: {
+            nombre: "Uniformes Medicos",
+            id: "conjuntos"
+        },
+        precio: 75
+    },
+     {
+        id: "conjunto-011",
+        titulo: "Azul Acero 972-A",
+        imagen: "./img/uniforme/972-A.png",
+        categoria: {
+            nombre: "Uniformes Medicos",
+            id: "conjuntos"
+        },
+        precio: 75
+    },
+    {
+        id: "conjunto-012",
+        titulo: "Tecnologia T230-E",
+        imagen: "./img/uniforme/T230-E.png",
+        categoria: {
+            nombre: "Uniformes Medicos",
+            id: "conjuntos"
+        },
+        precio: 120
+    },
+    {
+        id: "Chaleco-004",
+        titulo: "Dama 152",
+        imagen: "./img/chaleco/CHA-1.png",
+        categoria: {
+            nombre: "Chalecos De Vestir",
+            id: "Chalecos"
+        },
+        precio: 110
+    },
+    {
+        id: "Chaleco-004",
+        titulo: "Dama 152",
+        imagen: "./img/chaleco/CHA-2.png",
+        categoria: {
+            nombre: "Chalecos De Vestir",
+            id: "Chalecos"
+        },
+        precio: 110
     },
    
-   
-    {
-        "id": "camiseta-02",
-        "titulo": "Camiseta 02",
-        "imagen": "./img/camisetas/02.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-03",
-        "titulo": "Camiseta 03",
-        "imagen": "./img/camisetas/03.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-04",
-        "titulo": "Camiseta 04",
-        "imagen": "./img/camisetas/04.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-05",
-        "titulo": "Camiseta 05",
-        "imagen": "./img/camisetas/05.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-06",
-        "titulo": "Camiseta 06",
-        "imagen": "./img/camisetas/06.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-07",
-        "titulo": "Camiseta 07",
-        "imagen": "./img/camisetas/07.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        "id": "camiseta-08",
-        "titulo": "Camiseta 08",
-        "imagen": "./img/camisetas/08.jpg",
-        "categoria": {
-            "nombre": "Camisetas",
-            "id": "camisetas"
-        },
-        "precio": 1000
-    },
-    {
-        id: "pantalon-001",
-        titulo: "Azul Acero 001",
-        imagen: "./img/pantalones/001.png",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 38
-    },
-    {
-        id: "pantalon-002",
-        titulo: "Camote 002",
-        imagen: "./img/pantalones/002.png",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 38
-    },
-    {
-        id: "pantalon-003",
-        titulo: "Negro 003",
-        imagen: "./img/pantalones/003.png",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 38
-    },
-    {
-        id: "pantalon-004",
-        titulo: "Palo Rosa 004",
-        imagen: "./img/pantalones/004.png",
-        categoria: {
-            nombre: "Pantalones",
-            id: "pantalones"
-        },
-        precio: 38
-    },
    
 ];
 
