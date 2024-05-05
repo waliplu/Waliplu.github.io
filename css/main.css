@@ -151,7 +151,11 @@ main {
     grid-template-columns: repeat(4, 1fr);
     gap: 1rem;
 }
-
+  .vista-previa {
+       display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    }
 .producto-imagen {
     max-width: 100%;
     border-radius: 1rem;
@@ -315,6 +319,9 @@ main {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr 1fr;
     }
+    .vista-previa{
+         grid-template-columns: 1fr 1fr 1fr;
+    }
     main {
         background-color: var(--clr-white);
         margin: 0rem 1rem 1rem 1rem;
@@ -328,6 +335,9 @@ main {
 @media screen and (max-width: 675px) {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr;
+    }
+     .vista-previa {
+        grid-template-columns: 1fr;
     }
     main {
         background-color: var(--clr-white);
@@ -398,7 +408,9 @@ main {
     .contenedor-productos {
         grid-template-columns: 1fr 1fr;
     }
-
+ .vista-previa {
+        grid-template-columns: 1fr;
+    }
     .header-mobile {
         padding: 0.05rem ;
         display: flex;
