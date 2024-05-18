@@ -151,6 +151,16 @@ const productos = [
         },
         precio: 120
     },
+     {
+        id: "conjunto-013",
+        titulo: "NUNTRI SC-C",
+        imagen: "./img/uniforme/palta.jpg",
+        categoria: {
+            nombre: "Uniformes Medicos",
+            id: "conjuntos"
+        },
+        precio: 60
+    },
     {
         id: "Chaleco-004",
         titulo: "Dama 152",
