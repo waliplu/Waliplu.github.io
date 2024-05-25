@@ -162,7 +162,7 @@ const productos = [
         precio: 60
     },
     {
-        id: "Chaleco-004",
+        id: "Chaleco-001",
         titulo: "Dama 152",
         imagen: "./img/chaleco/CHA-1.png",
         categoria: {
@@ -172,7 +172,7 @@ const productos = [
         precio: 110
     },
     {
-        id: "Chaleco-004",
+        id: "Chaleco-002",
         titulo: "Dama 152",
         imagen: "./img/chaleco/CHA-2.png",
         categoria: {
@@ -182,7 +182,45 @@ const productos = [
         precio: 110
     },
    
-   
+       {
+        id: "Chaleco-003",
+        titulo: "chalecos de sastre en polystel",
+        imagen: "./img/chaleco/CHA-3.jpg",
+        categoria: {
+            nombre: "Chalecos De Vestir",
+            id: "Chalecos"
+        },
+        precio: 90
+    },
+         id: "Chaleco-004",
+        titulo: "blusa de gasa casual, negocio, oficina",
+        imagen: "./img/chaleco/blusa1.jpg",
+        categoria: {
+            nombre: "Chalecos De Vestir",
+            id: "Chalecos"
+        },
+        precio: 60
+    },
+       },
+         id: "Chaleco-005",
+        titulo: "blusa de gasa casual, negocio, oficina",
+        imagen: "./img/chaleco/blusa2.jpg",
+        categoria: {
+            nombre: "Chalecos De Vestir",
+            id: "Chalecos"
+        },
+        precio: 60
+    },
+       },
+         id: "Chaleco-006",
+        titulo: "blusa de gasa casual, negocio, oficina",
+        imagen: "./img/chaleco/blusa3.jpg",
+        categoria: {
+            nombre: "Chalecos De Vestir",
+            id: "Chalecos"
+        },
+        precio: 60
+    },
 ];
 
 
