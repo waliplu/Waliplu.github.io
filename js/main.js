@@ -182,7 +182,7 @@ const productos = [
         precio: 110
     },
    
-       {
+      {
         id: "Chaleco-003",
         titulo: "chalecos de sastre en polystel",
         imagen: "./img/chaleco/CHA-3.jpg",
@@ -192,6 +192,7 @@ const productos = [
         },
         precio: 90
     },
+     {
          id: "Chaleco-004",
         titulo: "blusa de gasa casual, negocio, oficina",
         imagen: "./img/chaleco/blusa1.jpg",
@@ -201,7 +202,7 @@ const productos = [
         },
         precio: 60
     },
-       },
+     {     
          id: "Chaleco-005",
         titulo: "blusa de gasa casual, negocio, oficina",
         imagen: "./img/chaleco/blusa2.jpg",
@@ -211,7 +212,7 @@ const productos = [
         },
         precio: 60
     },
-       },
+     {
          id: "Chaleco-006",
         titulo: "blusa de gasa casual, negocio, oficina",
         imagen: "./img/chaleco/blusa3.jpg",
