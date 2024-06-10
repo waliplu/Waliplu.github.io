@@ -1,0 +1,106 @@
+.container {
+  max-width: 960px;
+ 
+}
+
+@import "bootstrap-icons/font/bootstrap-icons";
+
+/*
+ * Custom translucent site header
+ */
+
+
+.site-header {
+  background-color: rgba(1, 13, 119, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+
+  
+}
+.header{
+  background: #01023afd;
+}
+.py-2{
+  color: #ffffff;
+}
+.site-header a {
+  color: #0ea14c;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #7e0359;
+  text-decoration: none;
+ 
+}
+.mas-product{
+  background: #01023afd;
+  border-radius: 1rem;
+  
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 250px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 1px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+.galeria{
+  background-color: rgb(255, 255, 255);
+}
+.galeria1{
+  background-color: whitesmoke;
+}
+.galeria2{
+background-color: #01023afd;
+}
+
+.footer{
+padding: 10px 10px 10px 10px;
+  background: #01023afd;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal >*{
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+  .footer{
+    
+   
+    background: #01023afd;
+  }
+}
