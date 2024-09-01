@@ -1,5 +1,6 @@
 .container {
   max-width: 960px;
+  text-decoration: none;
  
 }
 
@@ -84,6 +85,7 @@ background-color: #01023afd;
 .footer{
 padding: 10px 10px 10px 10px;
   background: #01023afd;
+  text-decoration: none;
 }
 
 
