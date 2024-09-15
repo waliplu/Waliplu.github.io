@@ -82,6 +82,15 @@ nav ul li:hover ul li i:hover{
     background: rgb(233,229,229);
 
 }
+  .galeria{
+        background-color: rgb(255, 255, 255);
+      }
+      .galeria1{
+        background-color: whitesmoke;
+      }
+      .galeria2{
+      background-color: #01023afd;
+      }
 .checkbtn{
     font-size: 30px;
     color: aliceblue;
