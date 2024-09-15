@@ -94,6 +94,12 @@ nav ul li:hover ul li i:hover{
 #check{
     display: none;
 }
+.wasap{
+    position: fixed;
+            right: 15px;
+            bottom: 15px;
+            z-index: 1;
+}
 .footer{
 
     background:#01023afd;
