@@ -40,7 +40,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },
     {
         id: "conjunto-002",
@@ -50,7 +50,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },
     {
         id: "conjunto-003",
@@ -60,7 +60,7 @@ const productos = [
             nombre: "Uniformes Medicos ",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },
     {
         id: "conjunto-004",
@@ -70,7 +70,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },
    
     {
@@ -81,7 +81,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },  {
         id: "conjunto-006",
         titulo: "Cobalto 275-C",
@@ -90,7 +90,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },  {
         id: "conjunto-007",
         titulo: "Celeste Cielo 281-C",
@@ -99,7 +99,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },
     {
         id: "conjunto-008",
@@ -109,7 +109,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },
     {
         id: "conjunto-009",
@@ -119,7 +119,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },
     {
         id: "conjunto-010",
@@ -129,7 +129,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },
      {
         id: "conjunto-011",
@@ -139,7 +139,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 75
+        precio: 85
     },
     {
         id: "conjunto-012",
@@ -159,7 +159,7 @@ const productos = [
             nombre: "Uniformes Medicos",
             id: "conjuntos"
         },
-        precio: 60
+        precio: 65
     },
     {
         id: "Chaleco-001",
