@@ -5,14 +5,8 @@
     list-style: none;
     box-sizing: border-box;
 }
-.container-fluid{
-    background:  #f5f5f5fd;
-   justify-content: center;
-   padding: 10px;
-   
-}
-.header{
-    background-color: #f6f6fc;
+
+
 
 }
 footer {
@@ -45,16 +39,8 @@ footer {
    .checkbtn{
         display: block;
     }
-    .nav-item{
-        display: block;
-        justify-content: center;
-        padding-left: 10px;
-    }
-    nav{
-        background-color: #01023afd ;
-        height: 100px;
-        width: 100%;
-    }
+   
+
         footer {
         background: #020530;
         color: white;
@@ -81,4 +67,5 @@ footer {
         font-size: 14px;
     }
     
+
 }
