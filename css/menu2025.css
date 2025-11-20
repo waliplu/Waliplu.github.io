@@ -6,17 +6,17 @@
     box-sizing: border-box;
 }
 
-
-    
-}
 .header{
     background-color: #f6f6fc;
 
 }
-  .h-screen{
+.h-screen{
     background: #f6f6fc;
 }
-.footer {
+#productos.h3{
+    color: #01023afd;
+}
+footer {
     background: #020530;
     color: white;
     text-align: center;
@@ -46,8 +46,11 @@
    .checkbtn{
         display: block;
     }
+   .h-screen{
+    background: #f6f6fc;
+    padding: 10px 10px 10px 10px;
+}
    
-
         footer {
         background: #020530;
         color: white;
@@ -74,8 +77,8 @@
         font-size: 14px;
     }
     
-
 }
+
 
 
 
