@@ -6,16 +6,17 @@
     box-sizing: border-box;
 }
 
+
+    
+}
 .header{
     background-color: #f6f6fc;
 
 }
   .h-screen{
     background: #f6f6fc;
-    
 }
-}
-footer {
+.footer {
     background: #020530;
     color: white;
     text-align: center;
@@ -75,5 +76,6 @@ footer {
     
 
 }
+
 
 
