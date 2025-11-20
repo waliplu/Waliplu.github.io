@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
      <link rel="stylesheet" href="./">
-    <link rel="stylesheet" href="css/waliplu.css">
+    <link rel="stylesheet" href="css/menu2025.css">
      <style>
       .bd-placeholder-img {
         font-size: 1.125rem;
@@ -33,7 +33,323 @@
     </style>
 </head>
 <body>
-     <nav class="navbar navbar-expand-lg  ">
+    <!-- NAVBAR -->
+  <header class="header shadow-md fixed w-full z-30">
+    <div class="max-w-7xl mx-auto flex justify-between items-center py-4 px-6">
+      <!-- Logo -->
+       
+      <h1 class="text-2xl font-white text-blue-600"></h1>
+      <img src="img/logowaliplu3.png" style="width: 200px;" alt=""> 
+      <!-- Botón menú móvil -->
+      <button id="menu-btn" class="md:hidden text-white-700 focus:outline-none">
+        <!-- Icono hamburguesa -->
+        <svg id="menu-open" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+        <!-- Icono cerrar -->
+        <svg id="menu-close" xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 hidden" fill="none"
+          viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M6 18L18 6M6 6l12 12" />
+        </svg>
+      </button>
+
+      <!-- Menú escritorio -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="#inicio" class="hover:text-blue-600">Inicio</a>
+        <a href="#servicios" class="hover:text-blue-600">Servicios</a>
+        <a href="#productos" class="hover:text-blue-600">Productos</a>
+        <a href="coorporacion.html" class="hover:text-blue-600">QUIENES SOMOS</a>
+        <a href="#redes" class="hover:text-blue-600">Contacto</a>
+      </nav>
+
+      <!-- Botón escritorio -->
+      <a href="https://wa.link/hraah8" ></a> <img src="img/wasap.png" alt=""></a>
+    </div>
+
+    <!-- Menú móvil con animación -->
+    <nav id="mobile-menu"
+      class="max-h-0 overflow-hidden transition-all duration-500 ease-in-out md:hidden bg-white shadow-lg border-t">
+      <ul class="flex flex-col space-y-4 py-4 px-6">
+        <li><a href="index.html" class="block hover:text-blue-600">Inicio</a></li>
+        <li><a href="#servicios" class="block hover:text-blue-600">Servicios</a></li>
+        <li><a href="#productos" class="block hover:text-blue-600">Productos</a></li>
+        <li><a href="coorporacion.html" class="block hover:text-blue-600">QUIENES SOMOS</a></li>
+        <li><a href="#redes" class="block hover:text-blue-600">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="h-screen flex items-center justify-center text-center bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-6">
+    <div>
+      
+      <h2 class="text-4xl md:text-6xl font-bold mb-4">Diseño Moderno y Profesional</h2>
+      <p class="text-lg md:text-xl mb-6">.</p>
+     
+      <img src="img/portada.jpg">
+      <a  href="coorporacion.html" class="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">Empezar Ahora</a>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="py-20 max-w-7xl mx-auto px-6">
+    <h2 class="text-3xl font-bold text-center mb-12">Nuestros Servicios</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-4">HOSPITALES, CLINICAS, LABORATORIOS</h3>
+        <img src="img/hospital.jpg" alt="">
+        <p>confeccion y venta de uniformes medicos.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-4">UNIVERSIDADES, INSTITUTOS Y COLEGIOS</h3>
+        <img src="img/cole.jpg" alt="">
+        <p>confeccion de uniformes para colegios publicos y privados.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-4">EMPRESAS CORPORATIVOS E INDUSTRIALES</h3>
+        <img src="img/empresa.jpg" alt="">
+        <p>confeccion de uniformes emprersariales y industriales</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <section id="productos" class="py-20 bg-gray-100 px-6">
+    <div class="max-w-7xl mx-auto">
+      <h2 class="text-3xl font-bold text-center mb-12">Nuestros Productos</h2>
+      <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/001-B.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">conjunto tafeta </h3>
+            <p class="text-gray-600 text-sm">confeccionado con telas de tecnologia antibacterial que inhiben bacterias</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/07.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/10.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/11.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/125-G.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/127-C.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+        </div>
+      </div>
+       <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/152.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/T230-E.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/230-E.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/275-C.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/281-C.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/uniforme/nutria.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">Antifluido stresh </h3>
+            <p class="text-gray-600 text-sm">es una tela bien suave y liviana, se mantiene fresco en horas largos</p>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/mochila/CART-2.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">CARTUCHERA</h3>
+            <p class="text-gray-600 text-sm">Cartuchera bordado .</p><div >S/. 15.00</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/mochila/LONCH-2.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">LONCHERA</h3>
+            <p class="text-gray-600 text-sm">Estampado</p><div >S/. 35.00</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/mochila/LONCH-3.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">LONCHERA</h3>
+            <p class="text-gray-600 text-sm">Estampado.</p>
+            <div >S/. 35.00</div>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/chaleco/CHA-2.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">CHALECO</h3>
+            <p class="text-gray-600 text-sm">chaleco en polystel</p><div>90</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/chaleco/blusa2.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">BLUSA</h3>
+            <p class="text-gray-600 text-sm">ceda ligero y suave juvenil</p> <div>S/45.00</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/chaleco/blusa1.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">BLUSA</h3>
+            <p class="text-gray-600 text-sm">ceda ligero y suave juvenil</p><div>S/45.00</div>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/polo/PAPA4.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">POLO</h3>
+            <p class="text-gray-600 text-sm">algodon 30/1 reactivo </p> <div>S/30.00</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/polo/PAPA1.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">POLO</h3>
+            <p class="text-gray-600 text-sm">estampado en DTF</p><div>S/ 30.00</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/polo/HUAYLAS2.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">POLO</h3>
+            <p class="text-gray-600 text-sm">Polos personalizado</p><div>S/30.00</div>
+          </div>
+        </div>
+         <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/chompa/CH-3.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">CHOMPA</h3>
+            <p class="text-gray-600 text-sm">Turquesa tejido  para profecionales</p> <div>S/85.00</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/chompa/CH-1.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">CHOMPA</h3>
+            <p class="text-gray-600 text-sm">Para estudiantes </p><div>S/50.00</div>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/chompa/CH-2.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">CHOMPA AZUL MARINO TEJIDO</h3>
+            <p class="text-gray-600 text-sm">Esta tejido con hilo grueso</p>
+          </div>
+        </div>
+                 <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/chompa/casaca1.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">CASACA CORTA VIENTO</h3>
+            <p class="text-gray-600 text-sm">100% Poliéster Material ligero, durable, resistente al viento y de secado rápido.</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/chompa/pcas-t.jpg" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">CASACA POLINAN</h3>
+            <p class="text-gray-600 text-sm">Es una casaca repelente al agua ligera Liviano y fresco resistente al uso diario No se arruga fácilmente Secado rápido</p>
+          </div>
+        </div>
+        <div class="bg-white rounded-xl shadow hover:shadow-lg overflow-hidden">
+          <img src="img/chompa/bcas-am.png" alt="Producto" class="w-full">
+          <div class="p-4">
+            <h3 class="font-semibold">TRASLAN BOMBER</h3>
+            <p class="text-gray-600 text-sm">Liviana y cómoda resistente al uso diario no se arruga fácilmente suave al tacto con forro polar y cierre rey</p>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="py-20 px-6">
+    <div class="max-w-3xl mx-auto bg-white rounded-2xl shadow p-10">
+      <h2 class="text-3xl font-bold text-center mb-8">Contáctanos</h2>
+      <form class="space-y-6">
+        <input type="text" placeholder="Tu Nombre" class="w-full p-3 border rounded-lg focus:ring focus:ring-blue-300">
+        <input type="email" placeholder="Tu Correo" class="w-full p-3 border rounded-lg focus:ring focus:ring-blue-300">
+        <textarea placeholder="Tu Mensaje" rows="5" class="w-full p-3 border rounded-lg focus:ring focus:ring-blue-300"></textarea>
+        <button type="submit" class="w-full bg-blue-600 text-white py-3 rounded-lg font-semibold hover:bg-blue-700 transition">Enviar Mensaje</button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- FOOTER -->
+ <footer id="redes">
+  <div class="footer-container">
+      <div class="footer-section">
+          <h3>Sobre Nosotros</h3>
+          <p>Somos una empresa dedicada a ofrecer los mejores servicios. Uniformes coorporativos y publicos para sector Salud y Educación</p>
+      </div>
+      <div class="footer-section">
+          <h3>Contacto</h3>
+          <p>Email: waliplu.gerencia@gmail.com</p>
+          <p>Teléfono: +51 936555019</p>
+      </div>
+      <div class="footer-section">
+          <h3>Síguenos</h3>
+          <a href="https://www.facebook.com/waliplu?mibextid=ZbWKwL">Facebook</a> | <a href="http://tiktok.com/@waliplu">Tik tok</a> | <a href="https://www.instagram.com/waliplu?igsh=Z3FqYzdlbWN4aDQ1"">Instagram</a>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2025 Empresa. Todos los derechos reservados.</p>
+  </div>
+</footer>
+   <!--  <nav class="navbar navbar-expand-lg  ">
       <div class="container-fluid" style="bg-primary">
         <a class="navbar-brand" href="index.html"> <img src="img/logowaliplu3.png" width="100"></a>
         <button class="navbar-toggler"  id="open-menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,7 +372,7 @@
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="menu.html">uniformes medicos</a></li>
                 <!--<li><a class="dropdown-item" href="#">polos</a></li>
-                <li><a class="dropdown-item" href="#">casacasy chompas</a></li>-->
+                <li><a class="dropdown-item" href="#">casacasy chompas</a></li>
               </ul>
             </li>
            
@@ -66,7 +382,7 @@
       </div>
     </nav>
 
-<main>
+<main>-->
  <!-- <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 text-center bg-light">
     <div class="col-md-12 p-lg-10 mx-auto my-10">
      
@@ -90,7 +406,7 @@
     </div>
     <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
   </div>-->
-  <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 ">
+ <!-- <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3 ">
     <div class="galeria1 me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
       <div class="my-3 py-3">
         <h2 class="display-5" style="color:#01023afd ;">SCRUBS </h2>
@@ -422,11 +738,13 @@
   <div class="footer-bottom">
       <p>&copy; 2025 Empresa. Todos los derechos reservados.</p>
   </div>
-</footer>
+</footer> -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="./js/main.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </body>
 </html>
+
