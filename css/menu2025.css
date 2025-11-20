@@ -10,7 +10,10 @@
     background-color: #f6f6fc;
 
 }
-
+  .h-screen{
+    background: #f6f6fc;
+    
+}
 }
 footer {
     background: #020530;
@@ -72,4 +75,5 @@ footer {
     
 
 }
+
 
